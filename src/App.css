@@ -1,42 +1,42 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+.container-ppal {
+  background-image: url(./images/weather/195827fabf0e7a7917d709a65b232268.jpg);
+  height: 100dvh;
+  background-position: center;
 }
-
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
+.navbar-ppal {
+  width: 20%;
+  height: 100%;
+  background: rgb(251, 204, 95);
+  background: linear-gradient(
+    82deg,
+    rgba(251, 204, 95, 0.5662640056022409) 5%,
+    rgba(251, 204, 95, 0.28895308123249297) 10%,
+    rgba(251, 204, 95, 0.3841911764705882) 89%,
+    rgba(251, 204, 95, 0.5802696078431373) 94%
+  );
 }
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
+.container-body {
+  width: 75%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
 }
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+.title-ppal > h1 {
+  font-family: monospace;
+  font-size: 2rem;
+  font-weight: 800;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
 }
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.container-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
+.city {
+  font-size: 2.5rem;
 }

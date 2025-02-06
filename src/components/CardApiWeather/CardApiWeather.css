@@ -1,0 +1,33 @@
+.containerCard {
+  background: rgb(207, 154, 31);
+  background: linear-gradient(
+    82deg,
+    rgba(207, 154, 31, 1) 5%,
+    rgba(246, 205, 109, 1) 12%,
+    rgba(235, 175, 41, 0.7805497198879552) 73%,
+    rgba(251, 204, 95, 1) 85%,
+    rgba(246, 185, 43, 1) 93%
+  );
+  box-shadow: 3px 3px 28px gray;
+  border: 2px solid gray;
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  gap: 10px;
+  width: 180px;
+}
+h1 {
+  font-family: fantasy;
+  font-size: 1.5rem;
+}
+.contenidoCard {
+  display: flex;
+
+  font-size: 0.9rem;
+}
+
+.coat {
+  width: 100px;
+}
